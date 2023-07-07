@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> deb1e40d33b31a98a6abf22709fc145f46f22407
 <?php $__env->startPush('styles_top'); ?>
     <link rel="stylesheet" href="/assets/default/css/css-stars.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/video.js/7.10.2/video-js.min.css" rel="stylesheet">

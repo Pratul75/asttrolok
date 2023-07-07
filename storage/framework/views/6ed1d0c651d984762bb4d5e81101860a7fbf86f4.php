@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> deb1e40d33b31a98a6abf22709fc145f46f22407
 <?php $__env->startSection('content'); ?>
     <?php
         $get404ErrorPageSettings = get404ErrorPageSettings();

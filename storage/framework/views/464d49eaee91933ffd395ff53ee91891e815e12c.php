@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> deb1e40d33b31a98a6abf22709fc145f46f22407
 <?php $__env->startPush('styles_top'); ?>
     <link rel="stylesheet" href="/assets/default/vendors/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="/assets/default/vendors/select2/select2.min.css">
@@ -41,7 +46,11 @@
                         <?php if(empty(request()->get('card')) or request()->get('card') == 'grid'): ?>
                             <div class="row">
                                 <?php $__currentLoopData = $webinars; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $webinar): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+<<<<<<< HEAD
                                     <div class="col-12 col-lg-6 mt-20">
+=======
+                                    <div class="col-12 col-lg-4 mt-20">
+>>>>>>> deb1e40d33b31a98a6abf22709fc145f46f22407
                                         <?php echo $__env->make('web.default.includes.webinar.grid-card',['webinar' => $webinar], \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
                                     </div>
                                 <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
